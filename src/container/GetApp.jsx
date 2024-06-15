@@ -39,7 +39,12 @@ const GetApp = () => {
 
 			<div className="flex justify-center items-center">
 				<span className="h-48 w-[70%] p-3 m-6 flex bg-yellow-50 rounded-[3rem] shadow-md items-center justify-center">
-					<h3 className="font-extrabold text-5xl text-red-300">675,662,957</h3>
+					<div className="flex flex-col items-center">
+						<h3 className="font-extrabold text-5xl text-red-300">
+							675,662,957
+						</h3>
+						<span className="text-2xl leading-1">App Installs</span>
+					</div>
 				</span>
 			</div>
 		</section>

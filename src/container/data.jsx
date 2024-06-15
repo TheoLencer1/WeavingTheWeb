@@ -11,7 +11,7 @@ import Theleap from "../assets/Theleap.jpg"
 import Theway from "../assets/Theway.jpg"
 import thornycrown from "../assets/thornycrown.jpg"
 
-export const data = [
+const data = [
 	{
 		id: 1,
 		numberOfDays: 31,
@@ -85,15 +85,17 @@ export const data = [
 	{
 		id: 11,
 		numberOfDays: 7,
-		title: "The Word of God",
-		description: "The Bible explained | Real Insight. Real Jesus.",
+		title: "The Way",
+		description: "Lord Jesus, The way, Truth and Life",
         img: Theway
 	},
 	{
-		id: 1,
-		numberOfDays: 31,
-		title: "The Word of God",
-		description: "The Bible explained | Real Insight. Real Jesus.",
+		id: 12,
+		numberOfDays: 8,
+		title: "The Pain He Bore for you",
+		description: "The passion of Christ on the cross shows His Love: Thorny Crown",
         img: thornycrown
 	},
 ];
+
+export default data;
